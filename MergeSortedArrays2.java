@@ -1,17 +1,17 @@
-public class MergeSortedArrays {
+public class MergeSortedArrays2 {
     public static void main(String[] args) {
-        int[] arr1 = {1, 3, 5, 7};
-        int[] arr2 = {2, 4, 6, 8, 10};
+        int[] arr1 = {2, 4, 5, 6, 7};
+        int[] arr2 = {1, 3, 8, 9, 10};
 
-        int[] merged = mergeSortedArrays(arr1, arr2);
+        int[] merged = mergeSortedArrays2(arr1, arr2);
 
-        System.out.print("Merged Sorted Array: ");
+        System.out.println("Merged Sorted Array:");
         for (int num : merged) {
             System.out.print(num + " ");
         }
     }
 
-    public static int[] mergeSortedArrays(int[] arr1, int[] arr2) {
+    public static int[] mergeSortedArrays2(int[] arr1, int[] arr2) {
         int n1 = arr1.length, n2 = arr2.length;
         int[] merged = new int[n1 + n2];
 
@@ -25,7 +25,6 @@ public class MergeSortedArrays {
             }
         }
 
-        
         while (i < n1) {
             merged[k++] = arr1[i++];
         }
@@ -33,6 +32,8 @@ public class MergeSortedArrays {
         while (j < n2) {
             merged[k++] = arr2[j++];
         }
+
+     
 
         return merged;
     }
