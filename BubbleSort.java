@@ -2,7 +2,7 @@
     
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {25,17,31,13,2};  
+        int[] arr = {25,17,31,13,2,2};  
 
         
         for(int i = 0; i < arr.length - 1; i++) {
