@@ -1,3 +1,4 @@
+package Sorting;
 public class selectionsort {
     public static void main(String[] args) {
         int arr[]={105,120,10,200,20};
