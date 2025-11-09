@@ -1,4 +1,9 @@
 package Sorting;
+
+//time and spase complexcity
+//best case=o(n^2) No improvement since selection happens every time
+//Average case=o(n^2)Always compares all elements
+//west case=o(n^2)Reverse order still gives n² comparisons
 public class selectionsort {
     public static void main(String[] args) {
         int arr[]={105,120,10,200,20};

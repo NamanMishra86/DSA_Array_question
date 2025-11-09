@@ -1,4 +1,9 @@
 package Sorting;
+//time and space complexcity
+//space complexcity=o(1)
+//best case=O(n) already sorted
+// Average case=O(n^2) nestaed loop
+//west case =O(n^2) reverse sorted
  
     
 public class BubbleSort {

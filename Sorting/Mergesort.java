@@ -1,3 +1,11 @@
+// Case	Time    Complexity	Explanation
+// Best Case	O(n log n)	Perfectly balanced partitions
+// Average Case	O(n log n)	Random pivot works well on average
+// Worst Case	  o(n²)	    Poor pivot choice (e.g., sorted array with first element as pivot)
+
+// Space Complexity: O(log n) (recursive stack)
+
+
 package Sorting;
 public class Mergesort {
 

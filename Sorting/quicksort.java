@@ -1,3 +1,14 @@
+// | Case         | Time Complexity | Explanation                   |
+// | ------------ | --------------- | ----------------------------- |
+// | Best Case    | **O(n log n)**  | Divide and merge steps        |
+// | Average Case | **O(n log n)**  | Always divides evenly         |
+// | Worst Case   | **O(n log n)**  | Even for reverse-sorted input |
+
+// Space Complexity: O(n) (extra array for merging)
+
+
+
+
 package Sorting;
 
 
