@@ -46,9 +46,9 @@ public class DoubleLinkedList {
         list.insertStart(10);
         list.insertStart(20);
         list.insertStart(30);
-         list.insertStart(40);
-          list.insertStart(50);
-           list.insertStart(60);
+        list.insertStart(40);
+        list.insertStart(50);
+        list.insertStart(60);
         list.display();
     }
 }
